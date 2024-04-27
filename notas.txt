@@ -16,4 +16,19 @@ while
         Validar o configurar primero la variable de control
 
 do-while 
-    -> 
+    -> Lo mimso que el while pero distinto
+
+
+Funciones -> Bloque de código que encapsula una funcionalidad o tearea que podrá ser llamada o utilizada la cantidad de veces que se requiera y donde se requiera
+    Declarativa:
+        Se puede definir y/o crear en cualquier parte del código y se podrán llamar en cualquier parte del código
+        Se asignan a la memoria global del archivo
+    Expresion:
+        Se puede definir y/o crear en cualquier parte del código y se podrán llamar solamente despues de su creación o definición
+        Se asigan a una variable en el archivo
+            Función regular
+            Función flecha (ES6+)
+
+    Las funciones tienen dos partes o momentos
+        1 - Definición o declaración
+        2 - Llamado o ejecución
