@@ -1,0 +1,19 @@
+Ciclos - Bucles - Estructuras de repetición
+Generales 
+    for, while, do-while
+"Propios"
+    For Of, For In
+"Métodos de arreglos"
+    filter, find, forEach, map, some
+
+
+while 
+    -> Un while puede hacer lo mismo que un for (pero no es recíproco)
+        -> Controlado por una expresión booleana (true)
+            (Normalmente es un bucle finito)
+        -> Cointrolado por una bandera o centinela o interruptor (true)
+            (Normalmente es infinito (controlado))
+        Validar o configurar primero la variable de control
+
+do-while 
+    -> 
