@@ -49,25 +49,53 @@
 //     console.log('Resultado...')
 // }
 
-function calcularSalario() {
-    let valorHora = 10000
-    let cantidadHoras = 50
-    var salario = valorHora * cantidadHoras
-    return salario, cantidadHoras, valorHora
-}
-calcularSalario()
-function calcularAuxilioTransporte(valor) {
-    let auxTransporte = 162000
-    if (valor <= 1300000) {
-        valor += auxTransporte
-        console.log('Si recibe auxilio de transporte...')
-        console.log(valor)
-    }
-}
-calcularAuxilioTransporte(calcularSalario())
+// function calcularSalario() {
+//     let valorHora = 10000
+//     let cantidadHoras = 50
+//     var salario = valorHora * cantidadHoras
+//     return salario, cantidadHoras, valorHora
+// }
+// calcularSalario()
+// function calcularAuxilioTransporte(valor) {
+//     let auxTransporte = 162000
+//     if (valor <= 1300000) {
+//         valor += auxTransporte
+//         console.log('Si recibe auxilio de transporte...')
+//         console.log(valor)
+//     }
+// }
+// calcularAuxilioTransporte(calcularSalario())
 
 
 // if(true){
 //     var nombre = 'Jaime'
 // }
 // console.log(nombre)
+
+
+/* Ejercicio - Cajero Electrónico 
+    1 - Inicio de sesión
+    2 - Consulta de saldo
+    3 - Retiro
+    4 - Transferencia y/o consignación
+    5 - Finalizar Sesión
+*/
+function cajeroElectronico(usuario) {
+    console.log('Bienvenido... ' + usuario)
+}
+let intentos = 2
+while (intentos >= 0) {
+    let usuario = prompt('Ingrese su usuario: ')
+    let contrasena = Number(prompt('Ingrese su contrasena: '))
+    if (usuario === 'jaime' && contrasena === 1234) {
+        cajeroElectronico(usuario)
+    } else {
+        // alert('Error de credenciales, tiene ' + intentos + ' restantes ' + intentos)
+        if (intentos === 0) {
+            console.log('Usuario bloqueado, contacte al ADMIN')
+            break
+        }
+        alert(`Error de credenciales, tiene ${intentos} restantes`)
+        intentos--
+    }
+}
