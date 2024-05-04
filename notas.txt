@@ -32,3 +32,12 @@ Funciones -> Bloque de código que encapsula una funcionalidad o tearea que podr
     Las funciones tienen dos partes o momentos
         1 - Definición o declaración
         2 - Llamado o ejecución
+
+
+Argumentos y Parámetros de una funcion
+-> Argumentos: es el valor que se le pasa a una funcion desde su llamado. Ese valor puede ser cualquier tipo de dato
+-> Parámetro: es la definición del valor recibido como argumento para ejecutarse dentro de ella
+
+
+Retorno de una funcion
+    -> Es un valor que quiero extraer de la misma y usarlo por fuera de ella

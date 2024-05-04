@@ -15,11 +15,11 @@
 //     console.log("Inicio de sesión correcto...");
 // };
 
-let iniciarSesion = () => {
-    console.log("Inicio de sesión correcto...");
-};
+// let iniciarSesion = () => {
+//     console.log("Inicio de sesión correcto...");
+// };
 
-iniciarSesion()
+// iniciarSesion()
 
 
 
@@ -29,3 +29,45 @@ iniciarSesion()
 // iniciarSesion()
 /* Se recomienda que una función se llame bajo el camelCase */
 
+// function suma(numeroUno, numeroDos, numeroTres, numeroCuatro, numeroCinco) {
+//     console.log('Resultado... ' + numeroUno, numeroDos, numeroTres, numeroCuatro, numeroCinco)
+// }
+// suma('25', true, [50], {}, function () {})
+
+// function suma(valorDos, valorUno) {
+//     console.log('Resultado... ' + (valorUno - valorDos))
+// }
+// let numeroUno = 25
+// let numeroDos = 55
+// suma(numeroUno, numeroDos)
+
+// var suma = function(){
+//     console.log('Resultado...')
+// }
+
+// var suma = () => {
+//     console.log('Resultado...')
+// }
+
+function calcularSalario() {
+    let valorHora = 10000
+    let cantidadHoras = 50
+    var salario = valorHora * cantidadHoras
+    return salario, cantidadHoras, valorHora
+}
+calcularSalario()
+function calcularAuxilioTransporte(valor) {
+    let auxTransporte = 162000
+    if (valor <= 1300000) {
+        valor += auxTransporte
+        console.log('Si recibe auxilio de transporte...')
+        console.log(valor)
+    }
+}
+calcularAuxilioTransporte(calcularSalario())
+
+
+// if(true){
+//     var nombre = 'Jaime'
+// }
+// console.log(nombre)
