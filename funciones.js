@@ -88,7 +88,15 @@ while (intentos >= 0) {
     let usuario = prompt('Ingrese su usuario: ')
     let contrasena = Number(prompt('Ingrese su contrasena: '))
     if (usuario === 'jaime' && contrasena === 1234) {
-        cajeroElectronico(usuario)
+        let repetir = true
+        while (repetir) {
+            cajeroElectronico(usuario)
+            let continuar = Number(prompt('¿Desea cerrar su sesión: \n1 - No\n2 - Si'))
+            if (continuar === 2) {
+                repetir = false
+            }
+        }
+        intentos = -1
     } else {
         // alert('Error de credenciales, tiene ' + intentos + ' restantes ' + intentos)
         if (intentos === 0) {
