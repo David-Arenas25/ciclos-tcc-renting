@@ -80,6 +80,9 @@
     4 - Transferencia y/o consignación
     5 - Finalizar Sesión
 */
+
+function consultarSaldo(){}
+
 function cajeroElectronico(usuario) {
     console.log('Bienvenido... ' + usuario)
     let saldo = 1000000 /*Returno y variable global*/

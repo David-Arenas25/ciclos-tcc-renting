@@ -41,3 +41,9 @@ Argumentos y Parámetros de una funcion
 
 Retorno de una funcion
     -> Es un valor que quiero extraer de la misma y usarlo por fuera de ella
+
+Tarea:
+    1 - Validar variable saldo para que descuente los debitos (transferencia y retiro)
+    2 - Cada opción que sea una funcion independiente y se llame dentro del case
+    3 - El menú de opciones que sea una función
+    4 - El menú de ejecución sea una función
